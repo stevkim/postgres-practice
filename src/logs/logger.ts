@@ -12,6 +12,7 @@ export const log = (data: TLogData) => {
 		query: data.text,
 		duration: data.duration + 'ms',
 		rows: data.rows,
+		timestamp: new Date().toISOString(),
 	};
 	console.log('executed query', logData);
 	const logString = 'executed query ' + JSON.stringify(logData) + '\n';

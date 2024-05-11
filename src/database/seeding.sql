@@ -7,4 +7,4 @@ CREATE TABLE students (
   age INTEGER NOT NULL
 );
 
-INSERT INTO students(name, email, age) VALUES ('Steven Kim', 'stev@email.com', 28), ('Steph Xu', 'steph@email.com', 15), ('Steeb', 'steeb@email.com', 15), ('Kimmy', 'kimmy@email.com', 11);
+INSERT INTO students(name, email, age) VALUES ('Steven Kim', 'stev@email.com', 28),('Steph Xu', 'steph@email.com', 15),('Steeb', 'steeb@email.com', 15),('Kimmy', 'kimmy@email.com', 11);
